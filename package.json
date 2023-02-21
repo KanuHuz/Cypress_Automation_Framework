@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "cypress": "^10.9.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-iframe": "^1.0.1",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3",
+    "multiple-cucumber-html-reporter": "^3.0.1"
+  },
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "recordDashboardTest": "npm run test -- --record --key a3522303-c195-4137-9621-1500fd94cf6b --reporter mochawesome"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/integration/examples/BDD/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

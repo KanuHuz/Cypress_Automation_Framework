@@ -1,0 +1,97 @@
+[
+  {
+    "description": "    Application Regression",
+    "keyword": "Feature",
+    "name": "E2E E-commerce validation",
+    "line": 1,
+    "id": "e2e-e-commerce-validation",
+    "tags": [],
+    "uri": "ecommerce.feature",
+    "elements": [
+      {
+        "id": "e2e-e-commerce-validation;filling-the-form-to-shop",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Filling the form to shop",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open E-commerce page",
+            "result": {
+              "status": "passed",
+              "duration": 4958000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "gender"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Kanu",
+                      "Male"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Tiye",
+                      "Female"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Mabe",
+                      "Female"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I fill the form details",
+            "result": {
+              "status": "passed",
+              "duration": 757000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Validate the forms behavior",
+            "result": {
+              "status": "passed",
+              "duration": 176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I select the shop page",
+            "result": {
+              "status": "passed",
+              "duration": 2372000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
