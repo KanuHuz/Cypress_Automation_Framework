@@ -1,4 +1,5 @@
-Cypress with BDD and Mochawesome Automation Framework
+Cypress with BDD and Mochawesome Automation Framework.
+
 This is a basic automation framework for web applications built using Cypress with BDD approach and Mochawesome report generator.
 
 Prerequisites
